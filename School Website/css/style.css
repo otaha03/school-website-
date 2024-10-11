@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+    padding: 10px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    background-color: black;
+    padding: 20px;
+    margin: 0 0 0 auto;
+}
+
+nav ul li{
+    margin-right: 60px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
